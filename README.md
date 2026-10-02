@@ -1,6 +1,6 @@
 # GP Triage Demo
 
-A standalone static demo of the GP triage wireframe from Terra Symposium. It is built with Astro and React and can be run locally or hosted independently on Netlify.
+A standalone static triage demo, moved out of Terra Symposium Docs. It includes the GP assessment, nurse intake, and ambulance dispatch workflows and can be run locally or hosted independently on Netlify.
 
 Live demo: <https://gp-triage-demo.netlify.app>
 
@@ -19,7 +19,9 @@ The site is configured for Netlify in `netlify.toml`. Connect this repository to
 
 ## Demo behavior
 
-This is a wireframe demo, not a clinical service. The form does not send information to a server or dispatch service. On submission, the demo shows its existing confirmation alert and saves a limited mock patient record in the browser's `terra-patients` local storage key; the other entered fields remain in page memory.
+This is a simulation, not a clinical service. The forms do not send information to a server or dispatch service. Nurse intake adds a limited mock patient record to the browser's `terra-patients` local storage key, which is also read by the ambulance dispatch queue. Other entered fields remain in page memory.
+
+The original general triage workflow is available at `/wireframes`, with a dedicated nurse intake at `/nurse` and the shared queue at `/ambulance`.
 
 Do not enter real patient information.
 

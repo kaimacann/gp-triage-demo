@@ -13,10 +13,21 @@ const { title = 'GP Triage Demo' } = Astro.props;
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="General practice triage wireframe demo." />
+		<meta name="description" content="A standalone triage simulation for GP assessment, nurse intake, and ambulance dispatch workflows." />
 		<title>{title}</title>
 	</head>
 	<body>
+		<header class="border-b border-primary-4 bg-white px-4 py-3 shadow-sm">
+			<nav class="mx-auto flex w-full max-w-6xl flex-wrap items-center justify-between gap-3" aria-label="Demo sections">
+				<a class="font-semibold text-primary-12 no-underline" href="/">GP Triage</a>
+				<div class="flex flex-wrap gap-2 text-sm font-medium">
+					<a class="rounded-md px-3 py-2 text-primary-10 hover:bg-primary-2" href="/">GP assessment</a>
+					<a class="rounded-md px-3 py-2 text-primary-10 hover:bg-primary-2" href="/wireframes">Triage workflow</a>
+					<a class="rounded-md px-3 py-2 text-primary-10 hover:bg-primary-2" href="/nurse">Nurse intake</a>
+					<a class="rounded-md px-3 py-2 text-primary-10 hover:bg-primary-2" href="/ambulance">Ambulance dispatch</a>
+				</div>
+			</nav>
+		</header>
 		<slot />
 	</body>
 </html>
