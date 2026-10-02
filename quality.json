@@ -80,6 +80,8 @@
     "children",
     "duration",
     "delay",
+    "patient",
+    "scoreTotal",
     "reverse",
     "rows",
     "className",
