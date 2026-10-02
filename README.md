@@ -2,6 +2,8 @@
 
 A standalone static demo of the GP triage wireframe from Terra Symposium. It is built with Astro and React and can be run locally or hosted independently on Netlify.
 
+Live demo: <https://gp-triage-demo.netlify.app>
+
 ## Run locally
 
 ```sh
