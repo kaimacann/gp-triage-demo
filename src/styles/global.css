@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	color-scheme: light;
+	--primary-1: 248 250 252;
+	--primary-2: 241 245 249;
+	--primary-3: 226 232 240;
+	--primary-4: 203 213 225;
+	--primary-5: 203 213 225;
+	--primary-6: 203 213 225;
+	--primary-7: 148 163 184;
+	--primary-8: 100 116 139;
+	--primary-9: 71 85 105;
+	--primary-10: 51 65 85;
+	--primary-11: 51 65 85;
+	--primary-12: 15 23 42;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+	background: rgb(var(--primary-1));
+	color: rgb(var(--primary-12));
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	min-width: 320px;
+}
+
+button,
+input,
+select {
+	font: inherit;
+}
+
+button,
+input,
+select {
+	&:focus-visible {
+		outline: 2px solid rgb(var(--primary-9));
+		outline-offset: 2px;
+	}
+}
