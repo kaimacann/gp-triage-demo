@@ -24,6 +24,9 @@ importers:
       '@astrojs/check':
         specifier: ^0.9.4
         version: 0.9.10(@emnapi/runtime@1.11.3)(prettier@3.9.9)(typescript@5.9.3)
+      '@terra-symposium/quality':
+        specifier: 0.4.34
+        version: 0.4.34
       '@types/react':
         specifier: ^19.2.18
         version: 19.3.0
@@ -842,6 +845,11 @@ packages:
 
   '@shikijs/vscode-textmate@10.0.2':
     resolution: {integrity: sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==}
+
+  '@terra-symposium/quality@0.4.34':
+    resolution: {integrity: sha512-0p4hn9zRrQ9SoNUQ121hVowyw/M8JOBb4PCN3fgIfj5MKrUzNtN37Ry1tXUw8dq6NUCloF0X6bRBr1yUEvv5vA==}
+    engines: {node: '>=18.18'}
+    hasBin: true
 
   '@tybys/wasm-util@0.10.4':
     resolution: {integrity: sha512-W3c4gRigFS0T/Ma4qIYF3GDAc5AQdHb1yL5znJT1Zv1YaD9Kitx656wBjvr19qbiosmZT8lWDM5BEMynUqX65A==}
@@ -2895,6 +2903,10 @@ snapshots:
       '@types/hast': 3.0.5
 
   '@shikijs/vscode-textmate@10.0.2': {}
+
+  '@terra-symposium/quality@0.4.34':
+    dependencies:
+      typescript: 5.9.3
 
   '@tybys/wasm-util@0.10.4':
     dependencies:

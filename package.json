@@ -11,7 +11,8 @@
 		"dev": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
-		"check": "astro check"
+		"check": "astro check",
+		"quality:all": "terra-quality quality --all --warn"
 	},
 	"dependencies": {
 		"@astrojs/react": "^6.0.4",
@@ -21,6 +22,7 @@
 	},
 	"devDependencies": {
 		"@astrojs/check": "^0.9.4",
+		"@terra-symposium/quality": "0.4.34",
 		"@types/react": "^19.2.18",
 		"@types/react-dom": "^19.2.18",
 		"autoprefixer": "^10.5.4",

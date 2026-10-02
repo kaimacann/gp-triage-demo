@@ -1,0 +1,42 @@
+{
+  "$schema": "./node_modules/@terra-symposium/quality/quality.schema.json",
+  "sourceRoots": [
+    "src"
+  ],
+  "extensions": [
+    ".astro",
+    ".js",
+    ".jsx",
+    ".ts",
+    ".tsx",
+    ".mjs",
+    ".cjs"
+  ],
+  "enabledChecks": {
+    "format": false,
+    "lint": false,
+    "knip": false,
+    "type": false,
+    "recommend": false,
+    "name": false,
+    "alias": false
+  },
+  "qualityCommands": [
+    {
+      "name": "check",
+      "command": "pnpm",
+      "args": [
+        "run",
+        "check"
+      ]
+    },
+    {
+      "name": "build",
+      "command": "pnpm",
+      "args": [
+        "run",
+        "build"
+      ]
+    }
+  ]
+}
