@@ -1,0 +1,12 @@
+{
+  "ignoreExportsUsedInFile": true,
+  "ignoreDependencies": [
+    "prettier"
+  ],
+  "entry": [
+    "astro.config.mjs",
+    "tailwind.config.mjs",
+    "src/pages/**/*.astro",
+    "test/**/*.mjs"
+  ]
+}

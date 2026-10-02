@@ -13,13 +13,13 @@
     ".cjs"
   ],
   "enabledChecks": {
-    "format": false,
-    "lint": false,
-    "knip": false,
-    "type": false,
-    "recommend": false,
-    "name": false,
-    "alias": false
+    "format": true,
+    "lint": true,
+    "knip": true,
+    "type": true,
+    "recommend": true,
+    "name": true,
+    "alias": true
   },
   "qualityCommands": [
     {
@@ -38,5 +38,84 @@
         "build"
       ]
     }
-  ]
+  ],
+  "documentation": {
+    "required": {
+      "types": true,
+      "functions": true,
+      "exportedFunctions": true,
+      "noInlineFunctions": false
+    }
+  },
+  "protectedIdentifiers": [
+    "current",
+    "value",
+    "previous",
+    "symptom",
+    "score",
+    "id",
+    "item",
+    "field",
+    "event",
+    "index",
+    "error",
+    "nextCopies",
+    "DashboardRecord",
+    "shareMessage",
+    "setShareMessage",
+    "currentDashboard",
+    "board",
+    "records",
+    "requestedId",
+    "response",
+    "message",
+    "imageTheme",
+    "channel",
+    "left",
+    "right",
+    "errors",
+    "values",
+    "name",
+    "props",
+    "children",
+    "duration",
+    "delay",
+    "reverse",
+    "rows",
+    "className",
+    "src",
+    "poster",
+    "title",
+    "author",
+    "meta",
+    "alt",
+    "origin",
+    "terminus",
+    "nodeData",
+    "setSelectedNode",
+    "PlayerProps",
+    "AudioTrack",
+    "MarqueeComponentProps",
+    "Person",
+    "SaibaiFlowNode",
+    "SaibaiButtonProps",
+    "AudioCtrlsProps",
+    "CarbonIconName",
+    "MapGeography",
+    "Props",
+    "State",
+    "ButtonProps",
+    "PersonNodeData",
+    "PersonGraphNode",
+    "MarriageGraphNode",
+    "GenealogyNode",
+    "PatientFormData",
+    "PatientRec"
+  ],
+  "tools": {
+    "prettier": "prettier",
+    "eslint": "eslint",
+    "knip": "knip",
+    "tsc": "tsc"
+  }
 }
